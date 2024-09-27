@@ -2,30 +2,21 @@
 
 ## Overview
 
-The Expense Management System is a web application developed using React for the frontend and Spring Boot for the backend. This application allows users to track their expenses, manage budgets, and analyze their spending patterns.
+The Expense Management System is a web application developed using React for the frontend and Spring Boot for the backend. This application allows users to track their expenses.
 
-## Features
 
-- User authentication and authorization
-- Add, edit, and delete expenses
-- Categorization of expenses
-- Budget tracking
-- Expense reports and analytics
-- Responsive design for mobile and desktop
 
 ## Technologies Used
 
 - **Frontend:**
   - React
-  - React Router
-  - Axios for API calls
   - CSS/Bootstrap for styling
 
 - **Backend:**
   - Spring Boot
   - RESTful API
   - JPA/Hibernate for database interaction
-  - MySQL or PostgreSQL for database
+  - MySQL database
 
 ## Installation
 
@@ -36,7 +27,7 @@ Make sure you have the following installed:
 - [Node.js](https://nodejs.org/) (version 14 or higher)
 - [Java JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) (version 11 or higher)
 - [Maven](https://maven.apache.org/) for building the backend
-- [MySQL](https://www.mysql.com/) or [PostgreSQL](https://www.postgresql.org/) for the database
+- [MySQL](https://www.mysql.com/)for the database
 
 ### Frontend Setup
 
@@ -75,14 +66,7 @@ Make sure you have the following installed:
    mvn spring-boot:run
    ```
 
-## API Documentation
 
-- The backend provides a RESTful API for the frontend to interact with. You can use tools like [Postman](https://www.postman.com/) to test the API endpoints.
-- API endpoints include:
-  - `GET /api/expenses` - Retrieve all expenses
-  - `POST /api/expenses` - Create a new expense
-  - `PUT /api/expenses/{id}` - Update an existing expense
-  - `DELETE /api/expenses/{id}` - Delete an expense
 
 ## Contributing
 
