@@ -1,4 +1,4 @@
-# Expense Management System
+# Expense Tracker
 
 ## Overview
 
@@ -76,6 +76,4 @@ If you'd like to contribute to this project, please fork the repository and crea
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgments
 
-- Inspiration, code snippets, etc.
